@@ -1,0 +1,7 @@
+{
+    "pack": {
+        "description": "This Datapack adds new Items to find in tresure chests!",
+        "pack_format": 71,
+        "supported_formats": { "min_inclusive": 61, "max_inclusive": 71 }
+    }
+}
