@@ -12,11 +12,7 @@
               "components": {
                 "minecraft:item_name": {"text":"Unstable Pocket Dimension"},
                 "minecraft:rarity": "epic",
-                "minecraft:custom_model_data": {
-                    "strings": [
-                        "unstable_pocket"
-                    ]
-                },
+                "minecraft:item_model": "pocket_dimension:unstable_pocket",
                 "minecraft:lore": [
                   {"color":"white","italic":false,"text":"It can only be used once to leave the room"},
                   [{"color":"blue","italic":false,"text":"Requirement: "},{"bold":true,"italic":false,"text":"None"}]
