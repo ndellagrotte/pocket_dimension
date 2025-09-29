@@ -6,7 +6,11 @@ function pocket_dimension:set_id with storage pocket_dimension:temp
 
 # generate Room (if needed)
 data modify storage pocket_dimension:temp room_exists set value 0
-execute in pocket_dimension:realm as @e[tag=pocket_dimension.anchor,type=marker] if score @s pocket_dimension.id = %step_id pocket_dimension.id run data modify storage pocket_dimension:temp room_exists set value 1
+
+execute in pocket_dimension:realm as @e[tag=pocket_dimension.anchor,type=marker] \
+    if score @s pocket_dimension.id = %step_id pocket_dimension.id \
+    run data modify storage pocket_dimension:temp room_exists set value 1
+#
 
 execute if data storage pocket_dimension:temp {room_exists:0} store result storage pocket_dimension:temp pocket_generation.pos_x int 8 run scoreboard players get %step_id pocket_dimension.id
 execute if data storage pocket_dimension:temp {room_exists:0} store result storage pocket_dimension:temp pocket_generation.id int 1 run scoreboard players get %step_id pocket_dimension.id

@@ -20,7 +20,8 @@ $execute in pocket_dimension:realm store success storage pocket_dimension:temp e
 execute in pocket_dimension:realm if data storage pocket_dimension:temp {enter_success:0b} run title @s actionbar {text:"Room isn't available or can't be entered!",color:"yellow"}
 
 # spawn decoration
-execute if data storage pocket_dimension:temp {enter_success:1b} run summon item_display ~ ~ ~ {Tags:["pocket_dimension","pocket_dimension.display"],item:{id:warped_fungus_on_a_stick,components:{"item_model":"pocket_dimension:display","minecraft:custom_model_data":{strings:["outside"]}}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.0f,0.5f,0.0f],scale:[1f,1f,1f]}}
+execute if data storage pocket_dimension:temp {enter_success:1b} \
+    run summon item_display ~ ~ ~ {Tags:["pocket_dimension","pocket_dimension.display"],item:{id:warped_fungus_on_a_stick,components:{"item_model":"pocket_dimension:display","minecraft:custom_model_data":{strings:["outside"]}}},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0.0f,0.5f,0.0f],scale:[1f,1f,1f]}}
 
 
 tag @s add pocket_dimension.entered
