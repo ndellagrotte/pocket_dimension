@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:bundle",
+    "minecraft:nether_star"
+  ],
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+        "components": {
+        "minecraft:item_name": {"text":"Pocket Dimension"},
+        "minecraft:rarity": "epic",
+        "minecraft:item_model": "pocket_dimension:pocket",
+        "minecraft:lore": [
+            {"color":"white","italic":false,"text":"Teleport to your own private space"},
+            [{"color":"blue","italic":false,"text":"Requirement: "},{"bold":true,"italic":false,"text":"Full Health"}]
+        ],
+        "minecraft:custom_data": {
+            "pocket":1
+        }
+        }
+  }
+}
