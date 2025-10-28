@@ -1,7 +1,11 @@
 {
     "pack": {
         "description": "This Datapack adds an Item with a small realm inside!",
+
+        "min_format": 80,
+        "max_format": 88,
+
         "pack_format": 81,
-        "supported_formats": { "min_inclusive": 61, "max_inclusive": 81 }
+        "supported_formats": [80, 88]
     }
 }
