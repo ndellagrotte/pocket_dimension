@@ -35,5 +35,4 @@ execute if data entity @s SelectedItem.components.minecraft:custom_data.pocket_u
 
 
 # debug
-execute unless score #max_health pocket_dimension.data = #health pocket_dimension.data unless entity @s[gamemode=creative] run title @s actionbar {"text":"You require full Health!","color":"yellow"}
-
+execute unless score #max_health pocket_dimension.data = #health pocket_dimension.data run title @s actionbar {"text":"You require full Health!","color":"yellow"}
