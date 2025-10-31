@@ -1,5 +1,5 @@
 #kick all highjackers
-$execute as @a[tag=pocket_dimension.highjacker,dz=8,dx=8,y=0,dy=8] in $(Dimension) run tp @s $(Pos0) $(Pos1) $(Pos2) $(Rotation0) ~
+$execute as @a[tag=pocket_dimension.highjacker,dz=8,dx=8,y=0,dy=8] run function pocket_dimension:highjack/leave_pocket_follow {"Dimension":"$(Dimension)","Pos0":$(Pos0),"Pos1":$(Pos1),"Pos2":$(Pos2),"Rotation0":$(Rotation0)}
 
 # teleport player
 $execute in $(Dimension) run tp @s $(Pos0) $(Pos1) $(Pos2) $(Rotation0) ~
