@@ -1,4 +1,4 @@
-tellraw @a ["\n",{text:"Pocket Dimensions",bold:false,color:"white"},{text:" are loaded!",bold:false,color:"white"},"\n",{text:"Version: ",color:"yellow"},{text:"1.21.5",color:"green"},{text:".0.1",color:"gray"}]
+tellraw @a ["\n",{text:"Pocket Dimensions",bold:false,color:"white"},{text:" are loaded!",bold:false,color:"white"},"\n",{text:"Version: ",color:"yellow"},{text:"1.21.9",color:"green"},{text:".0.1",color:"gray"}]
 
 # create scoreboards
 scoreboard objectives add pocket_dimension.data dummy
