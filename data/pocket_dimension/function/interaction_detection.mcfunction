@@ -9,17 +9,17 @@ execute on target store result score #health pocket_dimension.data run data get 
 # enter pocket
 execute on target if score #max_health pocket_dimension.data = #health pocket_dimension.data \
     at @s unless dimension pocket_dimension:realm \
-    run function pocket_dimension:highjack/enter_pocket with storage pocket_dimension:temp highjack
+    run function pocket_dimension:enter_pocket with storage pocket_dimension:temp highjack
 #
 
 # enter pocket creative
 execute on target if entity @s[gamemode=creative] \
     at @s unless dimension pocket_dimension:realm \
-    run function pocket_dimension:highjack/enter_pocket with storage pocket_dimension:temp highjack
+    run function pocket_dimension:enter_pocket with storage pocket_dimension:temp highjack
 #
 
 # debug
 execute unless score #max_health pocket_dimension.data = #health pocket_dimension.data unless entity @s[gamemode=creative] run title @s actionbar {"text":"You require full Health!","color":"yellow"}
 
 # reset interaction
-data modify entity @s interaction set value {}
+data remove entity @s interaction
