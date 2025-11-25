@@ -1,0 +1,1 @@
+execute in pocket_dimension:realm run place structure xy -1024 0 -1024
