@@ -3,3 +3,4 @@
 *.ffs_gui
 *.ffs_batch
 .notion-ignore.url
+*.disabled
