@@ -10,6 +10,8 @@ data modify storage pocket_dimension:temp spawn_location.posZ set from entity @s
 data modify storage pocket_dimension:temp spawn_location.pitch set from entity @s respawn.pitch
 data modify storage pocket_dimension:temp spawn_location.yaw set from entity @s respawn.yaw
 
+execute unless data entity @s respawn run data modify storage pocket_dimension:temp spawn_location set from storage pocket_dimension:temp world_spawn
+
 
 function pocket_dimension:leave_rift_follow with storage pocket_dimension:temp spawn_location
 
