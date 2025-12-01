@@ -20,5 +20,3 @@ execute if entity @p[x=-1024,y=0,z=-1024,dx=16,dy=15,dz=16] run return fail
 execute in pocket_dimension:realm run fill -1024 0 -1024 -1008 15 -1008 air
 execute in pocket_dimension:realm run kill @e[x=-1024,y=0,z=-1024,dx=16,dy=15,dz=16,type=!player]
 execute in pocket_dimension:realm positioned -1024 0 -1024 run forceload remove ~ ~
-
-say aaaaaaaahhhhh
