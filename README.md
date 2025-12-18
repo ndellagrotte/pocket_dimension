@@ -29,6 +29,6 @@ You can create whatever you can imagine! Start now and build your own pocket dim
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://buymeacoffee.com/mavleague">
-    <img src="https://github.com/MavLeague/pocket_dimension/blob/main/media/bmc-button.png?raw=true" height="35px">
+    <img src="https://github.com/MavLeague/pocket_dimension/blob/main/media/bmc-button.png?raw=true" width="120px">
   </a>
 </p>
